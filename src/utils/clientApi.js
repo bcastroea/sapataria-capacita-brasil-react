@@ -161,3 +161,49 @@ export const clienteApi = {
     }
   },
 };
+
+// Utilitários de autenticação
+
+export const authUtils = {
+  // Salvar token no localStorage, informando o tipo ("cliente" ou "user")
+  salvarToken(token, tipo = "cliente") {
+    localStorage.setItem(`${tipo}Token`, token);
+  },
+
+  // Obter token do localStorage pelo tipo
+  obterToken(tipo = "cliente") {
+    return localStorage.getItem(`${tipo}Token`);
+  },
+
+  // Remover token do localStorage pelo tipo
+  removerToken(tipo = "cliente") {
+    localStorage.removeItem(`${tipo}Token`);
+  },
+
+  // Decodificar token JWT
+  decodificarToken(token) {
+    try {
+      const payload = token.split(".")[1];
+      return JSON.parse(atob(payload));
+    } catch (error) {
+      console.error("Erro ao decodificar token:", error);
+      return null;
+    }
+  },
+
+  // Verificar se token está expirado
+  tokenExpirado(token) {
+    try {
+      const payload = this.decodificarToken(token);
+      return payload.exp * 1000 < Date.now();
+    } catch (error) {
+      return true;
+    }
+  },
+
+  // Verificar se existe token válido no localStorage pelo tipo
+  tokenValido(tipo = "cliente") {
+    const token = this.obterToken(tipo);
+    return token && !this.tokenExpirado(token);
+  },
+};

@@ -96,7 +96,6 @@ export const userApi = {
       const errorData = await res.json().catch(() => ({}));
       throw new Error(errorData.error || "Erro ao buscar usuários");
     }
-
     return await res.json();
   },
 
@@ -112,7 +111,6 @@ export const userApi = {
       const errorData = await res.json().catch(() => ({}));
       throw new Error(errorData.error || "Erro ao buscar usuário");
     }
-
     return await res.json();
   },
 };

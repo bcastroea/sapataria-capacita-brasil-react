@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import './SelectSize.css';
+import { useState } from "react";
+import "./SelectSize.css";
 
 export default function SelectSize({ sizes, onSelect }) {
   const [selectedSize, setSelectedSize] = useState(null);
@@ -14,7 +14,7 @@ export default function SelectSize({ sizes, onSelect }) {
       {sizes.map((size) => (
         <button
           key={size}
-          className={`tamanho ${selectedSize === size ? 'selecionado' : ''}`}
+          className={`tamanho ${selectedSize === size ? "selecionado" : ""}`}
           onClick={() => handleSelect(size)}
         >
           {size}

@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import './QuantitySelector.css';
+import { useState } from "react";
+import "./QuantitySelector.css";
 
 export default function QuantitySelector({ min = 1, max = 10, onChange }) {
   const [quantity, setQuantity] = useState(min);
@@ -22,9 +22,13 @@ export default function QuantitySelector({ min = 1, max = 10, onChange }) {
 
   return (
     <div className="quantidade-container">
-      <button className="btn-quantidade" onClick={handleDecrease}>−</button>
+      <button className="btn-quantidade" onClick={handleDecrease}>
+        −
+      </button>
       <span className="quantidade">{quantity}</span>
-      <button className="btn-quantidade" onClick={handleIncrease}>+</button>
+      <button className="btn-quantidade" onClick={handleIncrease}>
+        +
+      </button>
     </div>
   );
 }

@@ -5,26 +5,29 @@ import { Link } from "react-router-dom";
 import Logo from "../Header/Logo/logo-sapataria.png";
 import CartIcon from "../Cart/CartIcon";
 import SearchBar from "../SearchBar/SearchBar";
+import { authUtils } from "../../utils/clientApi";
 
 export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [showSearch, setShowSearch] = useState(false);
-  const [searchResults, setSearchResults] = useState([]);
+  const [setSearchResults] = useState([]);
+  const [isLogged, setIsLogged] = useState(false);
+
+  useEffect(() => {
+    // Verifica token do cliente
+    const token = authUtils.obterToken();
+    setIsLogged(token && !authUtils.tokenExpirado(token));
+  }, []);
 
   useEffect(() => {
     const mediaQuery = window.matchMedia("(min-width: 769px)");
 
     const handleResize = () => {
-      if (mediaQuery.matches) {
-        setMenuOpen(false);
-      }
+      if (mediaQuery.matches) setMenuOpen(false);
     };
 
     mediaQuery.addEventListener("change", handleResize);
-
-    return () => {
-      mediaQuery.removeEventListener("change", handleResize);
-    };
+    return () => mediaQuery.removeEventListener("change", handleResize);
   }, []);
 
   return (
@@ -51,7 +54,11 @@ export function Header() {
             onClick={() => setShowSearch(!showSearch)}
             style={{ cursor: "pointer" }}
           />
-          <User className={`${styles.icon} ${styles.desktopOnly}`} />
+          {/* Ícone do usuário */}
+          <Link to={isLogged ? "/client-page" : "/login-cliente"}>
+            <User className={`${styles.icon} ${styles.desktopOnly}`} />
+          </Link>
+
           <Link to="/carrinho" onClick={() => setMenuOpen(false)}>
             <CartIcon isMobile={false} />
           </Link>
@@ -83,7 +90,9 @@ export function Header() {
         </Link>
         <div className={styles.mobileIcons}>
           <Search className={styles.icon} />
-          <User className={styles.icon} />
+          <Link to={isLogged ? "/client-page" : "/login-cliente"}>
+            <User className={styles.icon} />
+          </Link>
           <Link to="/carrinho" onClick={() => setMenuOpen(false)}>
             <CartIcon className={styles.icon} />
           </Link>

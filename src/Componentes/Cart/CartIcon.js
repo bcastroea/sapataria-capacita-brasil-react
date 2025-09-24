@@ -1,8 +1,7 @@
 import { ShoppingCart } from "lucide-react";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import styles from '../Header/Header.module.css';
-
+import styles from "../Header/Header.module.css";
 
 export default function CartIcon({ isMobile }) {
   const cartItems = useSelector((state) => state.cart.items);

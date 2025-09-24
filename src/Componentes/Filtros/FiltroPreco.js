@@ -1,17 +1,17 @@
-import './FiltroLateral.css';
+import "./FiltroLateral.css";
 
 export default function FiltroPreco({ filtros, setFiltros }) {
   const handleMin = (e) => {
     const novoMin = Number(e.target.value);
     if (novoMin <= filtros.precoMax) {
-      setFiltros(prev => ({ ...prev, precoMin: novoMin }));
+      setFiltros((prev) => ({ ...prev, precoMin: novoMin }));
     }
   };
 
   const handleMax = (e) => {
     const novoMax = Number(e.target.value);
     if (novoMax >= filtros.precoMin) {
-      setFiltros(prev => ({ ...prev, precoMax: novoMax }));
+      setFiltros((prev) => ({ ...prev, precoMax: novoMax }));
     }
   };
 
@@ -40,11 +40,10 @@ export default function FiltroPreco({ filtros, setFiltros }) {
           />
         </div>
         <p className="range-valores">
-          R$ <span className="valor-destaque">{filtros.precoMin}</span> até 
-          R$ <span className="valor-destaque">{filtros.precoMax}</span>
+          R$ <span className="valor-destaque">{filtros.precoMin}</span> até R${" "}
+          <span className="valor-destaque">{filtros.precoMax}</span>
         </p>
       </div>
     </div>
   );
 }
-

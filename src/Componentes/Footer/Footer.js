@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export function Footer() {
   const instagram = "/assets/RedeSociais/instagram.png";
   const twitter = "/assets/RedeSociais/twitter.png";
-  const facebook = "/assets/RedeSociais/facebook.png"
+  const facebook = "/assets/RedeSociais/facebook.png";
   return (
     <footer className={styles.footer}>
       <div className={styles.grid}>

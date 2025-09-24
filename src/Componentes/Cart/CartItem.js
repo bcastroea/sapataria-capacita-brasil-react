@@ -1,25 +1,29 @@
-import { useDispatch } from 'react-redux';
-import { updateQuantity, removeItem } from './CartSlice';
-import './CartItem.css';
+import { useDispatch } from "react-redux";
+import { updateQuantity, removeItem } from "./CartSlice";
+import "./CartItem.css";
 
 function CartItem({ item }) {
   const dispatch = useDispatch();
 
   const handleQuantityChange = (newQuantity) => {
     if (newQuantity >= 1 && newQuantity <= (item.maxQuantity || 10)) {
-      dispatch(updateQuantity({
-        id: item.id,
-        size: item.size,
-        quantity: newQuantity
-      }));
+      dispatch(
+        updateQuantity({
+          id: item.id,
+          size: item.size,
+          quantity: newQuantity,
+        }),
+      );
     }
   };
 
   const handleRemove = () => {
-    dispatch(removeItem({
-      id: item.id,
-      size: item.size
-    }));
+    dispatch(
+      removeItem({
+        id: item.id,
+        size: item.size,
+      }),
+    );
   };
 
   return (
@@ -33,7 +37,7 @@ function CartItem({ item }) {
       </div>
       <div className="cart-item__price">${item.price.toFixed(2)}</div>
       <div className="cart-item__quantity">
-        <button 
+        <button
           onClick={() => handleQuantityChange(item.quantity - 1)}
           disabled={item.quantity <= 1}
           className="cart-item__quantity-button"
@@ -41,7 +45,7 @@ function CartItem({ item }) {
           -
         </button>
         <span className="cart-item__quantity-value">{item.quantity}</span>
-        <button 
+        <button
           onClick={() => handleQuantityChange(item.quantity + 1)}
           disabled={item.quantity >= (item.maxQuantity || 10)}
           className="cart-item__quantity-button"
@@ -52,10 +56,7 @@ function CartItem({ item }) {
       <div className="cart-item__subtotal">
         ${(item.price * item.quantity).toFixed(2)}
       </div>
-      <button 
-        className="cart-item__remove"
-        onClick={handleRemove}
-      >
+      <button className="cart-item__remove" onClick={handleRemove}>
         Remover
       </button>
     </div>

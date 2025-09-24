@@ -68,7 +68,11 @@ export default function ProdutoEspecifico() {
       </div>
     );
 
-  if (!produto.precos || !Array.isArray(produto.precos) || produto.precos.length === 0)
+  if (
+    !produto.precos ||
+    !Array.isArray(produto.precos) ||
+    produto.precos.length === 0
+  )
     return (
       <div className="ProdutoDetalhe">
         <p>Informações de preço não disponíveis.</p>
@@ -89,7 +93,7 @@ export default function ProdutoEspecifico() {
         size: tamanhoSelecionado,
         quantity: quantidade,
         maxQuantity: produto.qtdEstoque || 10, // Corrigido para qtdEstoque
-      })
+      }),
     );
     navigate("/carrinho");
   };
@@ -114,16 +118,17 @@ export default function ProdutoEspecifico() {
   const fecharLightbox = () => setLightboxImagem(null);
 
   const precoPrincipal = produto.precos[0];
-  const parcelaPrincipal = precoPrincipal.parcelamentos && 
-                          Array.isArray(precoPrincipal.parcelamentos) && 
-                          precoPrincipal.parcelamentos.length > 0
-    ? precoPrincipal.parcelamentos[0]
-    : null;
+  const parcelaPrincipal =
+    precoPrincipal.parcelamentos &&
+    Array.isArray(precoPrincipal.parcelamentos) &&
+    precoPrincipal.parcelamentos.length > 0
+      ? precoPrincipal.parcelamentos[0]
+      : null;
   const precoPix = precoPrincipal.aVista;
 
   const embaralhar = (arr) => [...arr].sort(() => 0.5 - Math.random());
   const relacionados = embaralhar(
-    produtos.filter((p) => p.tipo === produto.tipo && p.id !== produto.id)
+    produtos.filter((p) => p.tipo === produto.tipo && p.id !== produto.id),
   ).slice(0, 3);
 
   return (
@@ -151,7 +156,7 @@ export default function ProdutoEspecifico() {
                     className="carrossel-imagem"
                     onClick={() => abrirLightbox(img.url || img)}
                     onError={(e) => {
-                      e.target.src = '/fallback-image.jpg';
+                      e.target.src = "/fallback-image.jpg";
                     }}
                   />
                 ))}
@@ -205,7 +210,7 @@ export default function ProdutoEspecifico() {
           <p className="calçados-tipo">Calçados Adulto</p>
 
           <SelectSize
-            sizes={produto.tamanhos.map(t => t.numero)} // Converter objetos para números
+            sizes={produto.tamanhos.map((t) => t.numero)} // Converter objetos para números
             onSelect={setTamanhoSelecionado}
           />
 

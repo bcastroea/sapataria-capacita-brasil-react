@@ -130,8 +130,8 @@ export default function ComprasRecentes() {
                       compra.itens.reduce(
                         (total, item) =>
                           total + item.precoUnit * item.quantidade,
-                        0
-                      )
+                        0,
+                      ),
                     )}
                   </span>
                 </div>
@@ -173,8 +173,8 @@ export default function ComprasRecentes() {
                           compras.map((c) =>
                             c.id === compra.id
                               ? { ...c, status: "CANCELED" }
-                              : c
-                          )
+                              : c,
+                          ),
                         );
                       } catch (error) {
                         setErro(error.message);

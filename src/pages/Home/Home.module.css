@@ -25,7 +25,9 @@
 }
 
 .cardWrapper {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .cardWrapper:hover {
@@ -56,8 +58,6 @@
   .gridHomeProdutos {
     flex-direction: column;
     align-items: center;
-    
-    
   }
 
   .btnVerTodos {
@@ -68,16 +68,15 @@
   .homeProdutos {
     padding: 20px 10px;
     .fadeIn {
-  animation: fadeIn 0.6s ease-in-out forwards;
-  opacity: 0;
-}
+      animation: fadeIn 0.6s ease-in-out forwards;
+      opacity: 0;
+    }
 
-@keyframes fadeIn {
-  to {
-    opacity: 1;
-  }
-}
-
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
   }
 }
 /* Loader estilo spinner */
@@ -137,22 +136,21 @@
 
 .bannerContainer {
   width: 100%;
-  aspect-ratio: 16 / 6; 
+  aspect-ratio: 16 / 6;
   overflow: hidden;
   position: relative;
   .bannerOverlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), transparent 60%);
-}
-
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), transparent 60%);
+  }
 }
 
 .bannerImg {
   width: 100%;
-  max-height: 350px; 
+  max-height: 350px;
   object-fit: cover;
-  object-position: center top; 
+  object-position: center top;
 }
 
 .btnSecundario {
@@ -175,13 +173,10 @@
 }
 
 .estrelas span::before {
-  content: '★';
+  content: "★";
   color: #ccc;
 }
 
 .estrelas span.filled::before {
   color: #facc15;
 }
-
-
-

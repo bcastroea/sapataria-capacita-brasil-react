@@ -8,7 +8,7 @@ export default function ProtectedRoute({
 }) {
   const authState = useSelector((state) => state[slice]);
   const token = localStorage.getItem(
-    slice === "user" ? "userToken" : "clienteToken"
+    slice === "user" ? "userToken" : "clienteToken",
   );
 
   const isAuthenticated = !!(authState?.token || token);

@@ -1,12 +1,12 @@
-import './Button.css';
+import "./Button.css";
 
-export default function Button({ 
-  title, 
-  variant = 'primary', 
-  onPress, 
-  type = 'button',
+export default function Button({
+  title,
+  variant = "primary",
+  onPress,
+  type = "button",
   disabled = false,
-  ...props 
+  ...props
 }) {
   return (
     <button

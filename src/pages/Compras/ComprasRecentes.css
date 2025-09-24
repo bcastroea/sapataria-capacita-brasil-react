@@ -67,6 +67,26 @@
   background-color: #fc8181;
   color: #742a2a;
 }
+.status-pending {
+  background-color: #fbd38d;
+  color: #744210;
+}
+.status-paid {
+  background-color: #68d391;
+  color: #22543d;
+}
+.status-sent {
+  background-color: #63b3ed;
+  color: #2a4365;
+}
+.status-delivered {
+  background-color: #9ae6b4;
+  color: #22543d;
+}
+.status-canceled {
+  background-color: #fc8181;
+  color: #742a2a;
+}
 
 .compra-data span {
   display: block;

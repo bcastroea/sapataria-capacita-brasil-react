@@ -78,7 +78,9 @@
 .navMobile {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.3s ease, opacity 0.3s ease;
+  transition:
+    max-height 0.3s ease,
+    opacity 0.3s ease;
   padding: 0 24px;
   opacity: 0;
   transform: scaleY(0.95);

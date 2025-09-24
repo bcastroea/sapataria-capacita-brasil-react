@@ -32,12 +32,15 @@ export default function LoginUser() {
       const payload = JSON.parse(atob(token.split(".")[1]));
 
       // Carrega o usuário do backend
-      userApi.getUserById(payload.userId, token).then((userData) => {
-        dispatch(setUser({ ...userData, token }));
-        navigate("/user-page");
-      }).catch(() => {
-        authUtils.removerToken("user");
-      });
+      userApi
+        .getUserById(payload.userId, token)
+        .then((userData) => {
+          dispatch(setUser({ ...userData, token }));
+          navigate("/user-page");
+        })
+        .catch(() => {
+          authUtils.removerToken("user");
+        });
     }
   }, [navigate, dispatch]);
 
@@ -47,7 +50,6 @@ export default function LoginUser() {
     setErro("");
 
     try {
-      // CORREÇÃO: Mudar de "/user/login" para "/users/login"
       const res = await fetch(`${BASE_URL}/user/login`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -59,20 +61,22 @@ export default function LoginUser() {
 
       // CORREÇÃO: Usar a chave correta para salvar o token
       authUtils.salvarToken(data.token, "user");
-      
+
       // Decodificar token para obter ID do usuário
       const payload = JSON.parse(atob(data.token.split(".")[1]));
-      
+
       // Buscar dados completos do usuário
       const userData = await userApi.getUserById(payload.userId, data.token);
 
       // Atualizar estado global
       dispatch(setUser({ ...userData, token: data.token }));
-      
+
       // Redirecionar para página do usuário
       navigate("/user-page");
     } catch (err) {
-      setErro(err.message || "Erro ao fazer login. Verifique suas credenciais.");
+      setErro(
+        err.message || "Erro ao fazer login. Verifique suas credenciais.",
+      );
     } finally {
       setCarregando(false);
     }

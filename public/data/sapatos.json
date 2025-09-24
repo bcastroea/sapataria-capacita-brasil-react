@@ -35,16 +35,7 @@
       "/assets/images/SocialPennyLoaferPreto/SocialPennyLoaferPreto_6.png"
     ],
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ]
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44]
   },
   {
     "id": 2,
@@ -82,16 +73,7 @@
       "/assets/images/SocialDerbyPreto/SocialDerbyPreto_6.png"
     ],
     "descricao": "Um sapato social clássico com design atemporal e conforto excepcional.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ]
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44]
   },
   {
     "id": 3,
@@ -129,16 +111,7 @@
       "/assets/images/SocialDerbyTostado/SocialDerbyTostado_6.png"
     ],
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ]
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44]
   },
   {
     "id": 4,
@@ -150,16 +123,7 @@
     "qtdVendido": 75,
     "qtdAvaliacao": 73,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 878.0,
       "aVista": 834.1,
@@ -197,16 +161,7 @@
     "qtdVendido": 393,
     "qtdAvaliacao": 38,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 848.0,
       "aVista": 805.6,
@@ -244,16 +199,7 @@
     "qtdVendido": 15,
     "qtdAvaliacao": 7,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 848.0,
       "aVista": 805.6,
@@ -291,16 +237,7 @@
     "qtdVendido": 45,
     "qtdAvaliacao": 37,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 848.0,
       "aVista": 805.6,
@@ -338,16 +275,7 @@
     "qtdVendido": 309,
     "qtdAvaliacao": 141,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 568.0,
       "aVista": 539.6,
@@ -386,16 +314,7 @@
     "qtdVendido": 50,
     "qtdAvaliacao": 34,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 848.0,
       "aVista": 805.6,
@@ -433,16 +352,7 @@
     "qtdVendido": 253,
     "qtdAvaliacao": 24,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 748.0,
       "aVista": 710.6,
@@ -480,16 +390,7 @@
     "qtdVendido": 409,
     "qtdAvaliacao": 286,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 878.0,
       "aVista": 834.1,
@@ -527,16 +428,7 @@
     "qtdVendido": 356,
     "qtdAvaliacao": 349,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 748.0,
       "aVista": 710.6,
@@ -574,16 +466,7 @@
     "qtdVendido": 140,
     "qtdAvaliacao": 138,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 878.0,
       "aVista": 834.1,
@@ -621,16 +504,7 @@
     "qtdVendido": 39,
     "qtdAvaliacao": 8,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 848.0,
       "aVista": 805.6,
@@ -668,16 +542,7 @@
     "qtdVendido": 134,
     "qtdAvaliacao": 27,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 568.0,
       "aVista": 539.6,
@@ -715,16 +580,7 @@
     "qtdVendido": 49,
     "qtdAvaliacao": 37,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 568.0,
       "aVista": 539.6,
@@ -762,16 +618,7 @@
     "qtdVendido": 426,
     "qtdAvaliacao": 274,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 748.0,
       "aVista": 710.6,
@@ -809,16 +656,7 @@
     "qtdVendido": 349,
     "qtdAvaliacao": 145,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 878.0,
       "aVista": 834.1,
@@ -856,16 +694,7 @@
     "qtdVendido": 27,
     "qtdAvaliacao": 5,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 748.0,
       "aVista": 710.6,
@@ -903,16 +732,7 @@
     "qtdVendido": 177,
     "qtdAvaliacao": 125,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 548.0,
       "aVista": 548.0,
@@ -950,16 +770,7 @@
     "qtdVendido": 96,
     "qtdAvaliacao": 38,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 598.0,
       "aVista": 568.1,
@@ -997,16 +808,7 @@
     "qtdVendido": 40,
     "qtdAvaliacao": 27,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 498.0,
       "aVista": 498.0,
@@ -1044,16 +846,7 @@
     "qtdVendido": 403,
     "qtdAvaliacao": 103,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 598.0,
       "aVista": 568.1,
@@ -1091,16 +884,7 @@
     "qtdVendido": 237,
     "qtdAvaliacao": 112,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 548.0,
       "aVista": 548.0,
@@ -1138,16 +922,7 @@
     "qtdVendido": 416,
     "qtdAvaliacao": 297,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 398.0,
       "aVista": 398.0,
@@ -1185,16 +960,7 @@
     "qtdVendido": 16,
     "qtdAvaliacao": 8,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 578.0,
       "aVista": 578.0,
@@ -1232,16 +998,7 @@
     "qtdVendido": 338,
     "qtdAvaliacao": 332,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 398.0,
       "aVista": 398.0,
@@ -1280,16 +1037,7 @@
     "qtdVendido": 397,
     "qtdAvaliacao": 43,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 498.0,
       "aVista": 498.0,
@@ -1327,16 +1075,7 @@
     "qtdVendido": 74,
     "qtdAvaliacao": 70,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 398.0,
       "aVista": 398.0,
@@ -1374,16 +1113,7 @@
     "qtdVendido": 442,
     "qtdAvaliacao": 150,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 498.0,
       "aVista": 498.0,
@@ -1421,16 +1151,7 @@
     "qtdVendido": 110,
     "qtdAvaliacao": 22,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 548.0,
       "aVista": 548.0,
@@ -1468,16 +1189,7 @@
     "qtdVendido": 498,
     "qtdAvaliacao": 349,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 498.0,
       "aVista": 498.0,
@@ -1515,16 +1227,7 @@
     "qtdVendido": 81,
     "qtdAvaliacao": 8,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 548.0,
       "aVista": 548.0,
@@ -1562,16 +1265,7 @@
     "qtdVendido": 481,
     "qtdAvaliacao": 138,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 398.0,
       "aVista": 398.0,
@@ -1609,16 +1303,7 @@
     "qtdVendido": 251,
     "qtdAvaliacao": 110,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 398.0,
       "aVista": 398.0,
@@ -1656,16 +1341,7 @@
     "qtdVendido": 422,
     "qtdAvaliacao": 194,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 598.0,
       "aVista": 568.1,
@@ -1702,16 +1378,7 @@
     "qtdVendido": 291,
     "qtdAvaliacao": 188,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 598.0,
       "aVista": 568.1,
@@ -1748,16 +1415,7 @@
     "qtdVendido": 319,
     "qtdAvaliacao": 32,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 598.0,
       "aVista": 568.1,
@@ -1794,16 +1452,7 @@
     "qtdVendido": 298,
     "qtdAvaliacao": 50,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 398.0,
       "aVista": 398.0,
@@ -1841,16 +1490,7 @@
     "qtdVendido": 412,
     "qtdAvaliacao": 58,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 398.0,
       "aVista": 398.0,
@@ -1888,16 +1528,7 @@
     "qtdVendido": 344,
     "qtdAvaliacao": 124,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 398.0,
       "aVista": 398.0,
@@ -1935,16 +1566,7 @@
     "qtdVendido": 453,
     "qtdAvaliacao": 15,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 398.0,
       "aVista": 398.0,
@@ -1982,16 +1604,7 @@
     "qtdVendido": 474,
     "qtdAvaliacao": 138,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 698.0,
       "aVista": 698.0,
@@ -2029,16 +1642,7 @@
     "qtdVendido": 188,
     "qtdAvaliacao": 106,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 698.0,
       "aVista": 698.0,
@@ -2076,16 +1680,7 @@
     "qtdVendido": 254,
     "qtdAvaliacao": 91,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 798.0,
       "aVista": 758.1,
@@ -2123,16 +1718,7 @@
     "qtdVendido": 47,
     "qtdAvaliacao": 9,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 698.0,
       "aVista": 663.1,
@@ -2169,16 +1755,7 @@
     "qtdVendido": 442,
     "qtdAvaliacao": 88,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 328.0,
       "aVista": 311.6,
@@ -2214,16 +1791,7 @@
     "qtdVendido": 442,
     "qtdAvaliacao": 431,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 328.0,
       "aVista": 311.6,
@@ -2259,16 +1827,7 @@
     "qtdVendido": 47,
     "qtdAvaliacao": 28,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 328.0,
       "aVista": 311.6,
@@ -2304,16 +1863,7 @@
     "qtdVendido": 95,
     "qtdAvaliacao": 62,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 328.0,
       "aVista": 311.6,
@@ -2349,16 +1899,7 @@
     "qtdVendido": 453,
     "qtdAvaliacao": 367,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 799.9,
       "aVista": 719.91,
@@ -2396,16 +1937,7 @@
     "qtdVendido": 271,
     "qtdAvaliacao": 89,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 799.9,
       "aVista": 719.91,
@@ -2445,16 +1977,7 @@
     "qtdVendido": 185,
     "qtdAvaliacao": 45,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 799.9,
       "aVista": 719.91,
@@ -2491,16 +2014,7 @@
     "qtdVendido": 460,
     "qtdAvaliacao": 389,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 799.9,
       "aVista": 719.91,
@@ -2536,16 +2050,7 @@
     "qtdVendido": 253,
     "qtdAvaliacao": 240,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 799.9,
       "aVista": 719.91,
@@ -2581,16 +2086,7 @@
     "qtdVendido": 214,
     "qtdAvaliacao": 19,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 799.9,
       "aVista": 719.91,
@@ -2626,16 +2122,7 @@
     "qtdVendido": 34,
     "qtdAvaliacao": 5,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 799.9,
       "aVista": 719.91,
@@ -2672,16 +2159,7 @@
     "qtdVendido": 129,
     "qtdAvaliacao": 28,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 799.9,
       "aVista": 719.91,
@@ -2717,16 +2195,7 @@
     "qtdVendido": 146,
     "qtdAvaliacao": 92,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 799.9,
       "aVista": 719.91,
@@ -2762,16 +2231,7 @@
     "qtdVendido": 199,
     "qtdAvaliacao": 163,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 799.9,
       "aVista": 719.91,
@@ -2807,16 +2267,7 @@
     "qtdVendido": 171,
     "qtdAvaliacao": 159,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 799.9,
       "aVista": 719.91,
@@ -2852,16 +2303,7 @@
     "qtdVendido": 358,
     "qtdAvaliacao": 316,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 799.9,
       "aVista": 719.91,
@@ -2898,16 +2340,7 @@
     "qtdVendido": 427,
     "qtdAvaliacao": 88,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 799.9,
       "aVista": 719.91,
@@ -2943,16 +2376,7 @@
     "qtdVendido": 132,
     "qtdAvaliacao": 42,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 799.9,
       "aVista": 719.91,
@@ -2989,16 +2413,7 @@
     "qtdVendido": 495,
     "qtdAvaliacao": 356,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 799.9,
       "aVista": 719.91,
@@ -3034,16 +2449,7 @@
     "qtdVendido": 338,
     "qtdAvaliacao": 243,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 629.9,
       "aVista": 566.91,
@@ -3080,16 +2486,7 @@
     "qtdVendido": 275,
     "qtdAvaliacao": 41,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 629.9,
       "aVista": 566.91,
@@ -3129,16 +2526,7 @@
     "qtdVendido": 281,
     "qtdAvaliacao": 157,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 629.9,
       "aVista": 566.91,
@@ -3176,16 +2564,7 @@
     "qtdVendido": 205,
     "qtdAvaliacao": 55,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 629.9,
       "aVista": 566.91,
@@ -3222,16 +2601,7 @@
     "qtdVendido": 201,
     "qtdAvaliacao": 199,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 629.9,
       "aVista": 566.91,
@@ -3268,16 +2638,7 @@
     "qtdVendido": 396,
     "qtdAvaliacao": 147,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 629.9,
       "aVista": 566.91,
@@ -3317,16 +2678,7 @@
     "qtdVendido": 349,
     "qtdAvaliacao": 314,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 899.9,
       "aVista": 809.91,
@@ -3362,16 +2714,7 @@
     "qtdVendido": 95,
     "qtdAvaliacao": 13,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 899.9,
       "aVista": 809.91,
@@ -3408,16 +2751,7 @@
     "qtdVendido": 30,
     "qtdAvaliacao": 29,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 899.9,
       "aVista": 809.91,
@@ -3453,16 +2787,7 @@
     "qtdVendido": 151,
     "qtdAvaliacao": 91,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 899.9,
       "aVista": 809.91,
@@ -3498,16 +2823,7 @@
     "qtdVendido": 27,
     "qtdAvaliacao": 5,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 899.9,
       "aVista": 809.91,
@@ -3543,16 +2859,7 @@
     "qtdVendido": 354,
     "qtdAvaliacao": 145,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 899.9,
       "aVista": 809.91,
@@ -3588,16 +2895,7 @@
     "qtdVendido": 241,
     "qtdAvaliacao": 134,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 899.9,
       "aVista": 809.91,
@@ -3636,16 +2934,7 @@
     "qtdVendido": 425,
     "qtdAvaliacao": 322,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 899.9,
       "aVista": 809.91,
@@ -3681,16 +2970,7 @@
     "qtdVendido": 43,
     "qtdAvaliacao": 29,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 899.9,
       "aVista": 809.91,
@@ -3726,16 +3006,7 @@
     "qtdVendido": 266,
     "qtdAvaliacao": 242,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 899.9,
       "aVista": 809.91,
@@ -3772,16 +3043,7 @@
     "qtdVendido": 457,
     "qtdAvaliacao": 208,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 629.9,
       "aVista": 566.91,
@@ -3821,16 +3083,7 @@
     "qtdVendido": 379,
     "qtdAvaliacao": 92,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 629.9,
       "aVista": 566.91,
@@ -3867,16 +3120,7 @@
     "qtdVendido": 121,
     "qtdAvaliacao": 116,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 629.9,
       "aVista": 566.91,
@@ -3913,16 +3157,7 @@
     "qtdVendido": 169,
     "qtdAvaliacao": 126,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 799.9,
       "aVista": 719.91,
@@ -3958,16 +3193,7 @@
     "qtdVendido": 499,
     "qtdAvaliacao": 311,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 799.9,
       "aVista": 719.91,
@@ -4004,16 +3230,7 @@
     "qtdVendido": 370,
     "qtdAvaliacao": 317,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 799.9,
       "aVista": 719.91,
@@ -4049,16 +3266,7 @@
     "qtdVendido": 37,
     "qtdAvaliacao": 13,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 799.9,
       "aVista": 719.91,
@@ -4094,16 +3302,7 @@
     "qtdVendido": 221,
     "qtdAvaliacao": 40,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 799.9,
       "aVista": 719.91,
@@ -4139,16 +3338,7 @@
     "qtdVendido": 139,
     "qtdAvaliacao": 19,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 629.9,
       "aVista": 566.91,
@@ -4186,16 +3376,7 @@
     "qtdVendido": 79,
     "qtdAvaliacao": 70,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 629.9,
       "aVista": 566.91,
@@ -4235,16 +3416,7 @@
     "qtdVendido": 466,
     "qtdAvaliacao": 194,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 629.9,
       "aVista": 566.91,
@@ -4281,16 +3453,7 @@
     "qtdVendido": 390,
     "qtdAvaliacao": 73,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 899.9,
       "aVista": 809.91,
@@ -4327,16 +3490,7 @@
     "qtdVendido": 372,
     "qtdAvaliacao": 35,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 899.9,
       "aVista": 809.91,
@@ -4376,16 +3530,7 @@
     "qtdVendido": 398,
     "qtdAvaliacao": 354,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 899.9,
       "aVista": 809.91,
@@ -4423,16 +3568,7 @@
     "qtdVendido": 74,
     "qtdAvaliacao": 61,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 629.9,
       "aVista": 566.91,
@@ -4472,16 +3608,7 @@
     "qtdVendido": 68,
     "qtdAvaliacao": 57,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 629.9,
       "aVista": 566.91,
@@ -4519,16 +3646,7 @@
     "qtdVendido": 149,
     "qtdAvaliacao": 124,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 629.9,
       "aVista": 566.91,
@@ -4564,16 +3682,7 @@
     "qtdVendido": 410,
     "qtdAvaliacao": 250,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 629.9,
       "aVista": 566.91,
@@ -4609,16 +3718,7 @@
     "qtdVendido": 468,
     "qtdAvaliacao": 280,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 629.9,
       "aVista": 566.91,
@@ -4657,16 +3757,7 @@
     "qtdVendido": 469,
     "qtdAvaliacao": 242,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 629.9,
       "aVista": 566.91,
@@ -4702,16 +3793,7 @@
     "qtdVendido": 215,
     "qtdAvaliacao": 184,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 629.9,
       "aVista": 566.91,
@@ -4747,16 +3829,7 @@
     "qtdVendido": 418,
     "qtdAvaliacao": 381,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 629.9,
       "aVista": 566.91,
@@ -4794,16 +3867,7 @@
     "qtdVendido": 371,
     "qtdAvaliacao": 313,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 629.9,
       "aVista": 566.91,
@@ -4840,16 +3904,7 @@
     "qtdVendido": 444,
     "qtdAvaliacao": 325,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 629.9,
       "aVista": 566.91,
@@ -4887,16 +3942,7 @@
     "qtdVendido": 495,
     "qtdAvaliacao": 29,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 629.9,
       "aVista": 566.91,
@@ -4933,16 +3979,7 @@
     "qtdVendido": 179,
     "qtdAvaliacao": 157,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 629.9,
       "aVista": 566.91,
@@ -4982,16 +4019,7 @@
     "qtdVendido": 313,
     "qtdAvaliacao": 73,
     "descricao": "Um sapato social elegante com acabamento premium em couro legítimo.",
-    "tamanhos": [
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44
-    ],
+    "tamanhos": [37, 38, 39, 40, 41, 42, 43, 44],
     "preco": {
       "semDesconto": 629.9,
       "aVista": 566.91,

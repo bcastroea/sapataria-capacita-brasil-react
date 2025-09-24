@@ -1,28 +1,28 @@
-import { useState, useEffect } from 'react';
-import { useNavigate, useParams } from 'react-router-dom';
-import Button from '../../Componentes/Buttons/Button';
-import Alert from '../../Componentes/Alert/alert';
-import './EnderecoFormPage.css';
-import { authUtils } from '../../utils/clientApi';
-import { enderecoApi } from '../../utils/enderecoApi';
+import { useState, useEffect } from "react";
+import { useNavigate, useParams } from "react-router-dom";
+import Button from "../../Componentes/Buttons/Button";
+import Alert from "../../Componentes/Alert/alert";
+import "./EnderecoFormPage.css";
+import { authUtils } from "../../utils/clientApi";
+import { enderecoApi } from "../../utils/enderecoApi";
 
 export default function EnderecoFormPage() {
   const { id } = useParams(); // id do endereço, se estiver editando
   const navigate = useNavigate();
   const [form, setForm] = useState({
-    rua: '',
-    numero: '',
-    cidade: '',
-    estado: '',
-    cep: '',
+    rua: "",
+    numero: "",
+    cidade: "",
+    estado: "",
+    cep: "",
   });
-  const [erro, setErro] = useState('');
+  const [erro, setErro] = useState("");
   const [carregando, setCarregando] = useState(false);
 
   const token = authUtils.obterToken();
 
   useEffect(() => {
-    if (!token) return navigate('/login-cliente');
+    if (!token) return navigate("/login-cliente");
 
     const fetchEndereco = async () => {
       if (!id) return; // criar novo, não buscar
@@ -48,13 +48,13 @@ export default function EnderecoFormPage() {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setForm(prev => ({ ...prev, [name]: value }));
+    setForm((prev) => ({ ...prev, [name]: value }));
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setCarregando(true);
-    setErro('');
+    setErro("");
 
     try {
       if (id) {
@@ -64,7 +64,7 @@ export default function EnderecoFormPage() {
         // criar novo
         await enderecoApi.createEndereco(form, token);
       }
-      navigate('/enderecos');
+      navigate("/enderecos");
     } catch (error) {
       setErro(error.message);
     } finally {
@@ -74,8 +74,10 @@ export default function EnderecoFormPage() {
 
   return (
     <div className="endereco-form-container">
-      <h1>{id ? 'Editar Endereço' : 'Adicionar Novo Endereço'}</h1>
-      {erro && <Alert type="error" message={erro} onClose={() => setErro('')} />}
+      <h1>{id ? "Editar Endereço" : "Adicionar Novo Endereço"}</h1>
+      {erro && (
+        <Alert type="error" message={erro} onClose={() => setErro("")} />
+      )}
 
       {carregando && <p>Carregando...</p>}
 
@@ -127,13 +129,13 @@ export default function EnderecoFormPage() {
               type="submit"
               variant="primary"
               disabled={carregando}
-              title={carregando ? 'Salvando...' : 'Salvar'}
+              title={carregando ? "Salvando..." : "Salvar"}
             />
             <Button
               type="button"
               variant="secondary"
               title="Cancelar"
-              onClick={() => navigate('/enderecos')}
+              onClick={() => navigate("/enderecos")}
             />
           </div>
         </form>

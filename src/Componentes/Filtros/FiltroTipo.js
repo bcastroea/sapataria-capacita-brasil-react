@@ -1,11 +1,11 @@
-import './FiltroLateral.css'
+import "./FiltroLateral.css";
 
 export default function FiltroTipo({ tipos, filtros, setFiltros }) {
   const toggleTipo = (tipo) => {
     const atual = filtros.tipo.includes(tipo);
-    setFiltros(prev => ({
+    setFiltros((prev) => ({
       ...prev,
-      tipo: atual ? prev.tipo.filter(t => t !== tipo) : [...prev.tipo, tipo]
+      tipo: atual ? prev.tipo.filter((t) => t !== tipo) : [...prev.tipo, tipo],
     }));
   };
 
@@ -13,7 +13,7 @@ export default function FiltroTipo({ tipos, filtros, setFiltros }) {
     <div className="filtro-secao">
       <h3 className="filtro-titulo">Tipo</h3>
       <div className="opcoes-container">
-        {tipos.map(tipo => (
+        {tipos.map((tipo) => (
           <label key={tipo} className="opcao-item">
             <input
               type="checkbox"
@@ -28,4 +28,3 @@ export default function FiltroTipo({ tipos, filtros, setFiltros }) {
     </div>
   );
 }
-

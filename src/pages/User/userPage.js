@@ -99,7 +99,7 @@ export default function UserPage() {
     formData.append("descricao", novoProduto.descricao);
 
     novoProduto.tamanhos.forEach((t, i) =>
-      formData.append(`tamanhos[${i}][nome]`, t)
+      formData.append(`tamanhos[${i}][nome]`, t),
     );
     novoProduto.imagens.forEach((img) => formData.append("imagens", img));
 
@@ -147,7 +147,7 @@ export default function UserPage() {
       const atualizado = await productApi.updateProduto(
         produtoId,
         formData,
-        user.token
+        user.token,
       );
       setProdutos(produtos.map((p) => (p.id === produtoId ? atualizado : p)));
       setEditando(null);
@@ -189,6 +189,13 @@ export default function UserPage() {
         <h2>Usuários</h2>
         <Link to="/user-management">
           <Button title="Gerenciar Usuários" variant="primary" />
+        </Link>
+      </div>
+
+      <div className="compras-navegacao">
+        <h2>Compras</h2>
+        <Link to="/compras-management">
+          <Button title="Gerenciar Compras" variant="primary" />
         </Link>
       </div>
 

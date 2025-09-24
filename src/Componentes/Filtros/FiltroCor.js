@@ -1,11 +1,11 @@
-import './FiltroLateral.css'
+import "./FiltroLateral.css";
 
 export default function FiltroCor({ cores, filtros, setFiltros }) {
   const toggleCor = (cor) => {
     const atual = filtros.cor.includes(cor);
-    setFiltros(prev => ({
+    setFiltros((prev) => ({
       ...prev,
-      cor: atual ? prev.cor.filter(c => c !== cor) : [...prev.cor, cor]
+      cor: atual ? prev.cor.filter((c) => c !== cor) : [...prev.cor, cor],
     }));
   };
 
@@ -13,7 +13,7 @@ export default function FiltroCor({ cores, filtros, setFiltros }) {
     <div className="filtro-secao">
       <h3 className="filtro-titulo">Cor</h3>
       <div className="opcoes-container opcoes-cor">
-        {cores.map(cor => (
+        {cores.map((cor) => (
           <label key={cor} className="opcao-item">
             <input
               type="checkbox"

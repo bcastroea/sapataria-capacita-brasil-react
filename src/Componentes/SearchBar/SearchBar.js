@@ -24,7 +24,7 @@ export default function SearchBar({ onClose }) {
 
   useEffect(() => {
     const filtrados = produtos.filter((p) =>
-      p.nome.toLowerCase().includes(query.toLowerCase())
+      p.nome.toLowerCase().includes(query.toLowerCase()),
     );
     setResultados(filtrados);
   }, [query, produtos]);
@@ -77,7 +77,7 @@ export default function SearchBar({ onClose }) {
               <div className={styles.cardInfo}>
                 <p className={styles.cardNome}>{produto.nome}</p>
                 <p className={styles.cardPreco}>
-                  R$ {produto.preco.aVista.toFixed(2).replace(".", ",")}
+                  R$ {produto.precos[0].aVista.toFixed(2).replace(".", ",")}
                 </p>
               </div>
             </div>

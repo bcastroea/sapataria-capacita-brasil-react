@@ -56,14 +56,12 @@ function Produtos() {
       p.nome.toLowerCase().includes(filtros.nome.toLowerCase());
     const tipoOk = filtros.tipo.length === 0 || filtros.tipo.includes(p.tipo);
     const corOk = filtros.cor.length === 0 || filtros.cor.includes(p.cor || "");
-    
+
     // CORREÇÃO: Acessar o preço corretamente (array de preços)
-    const preco = p.precos && p.precos.length > 0 
-      ? p.precos[0].aVista 
-      : 0;
-    
+    const preco = p.precos && p.precos.length > 0 ? p.precos[0].aVista : 0;
+
     const precoOk = preco >= filtros.precoMin && preco <= filtros.precoMax;
-    
+
     return nomeOk && tipoOk && corOk && precoOk;
   });
 

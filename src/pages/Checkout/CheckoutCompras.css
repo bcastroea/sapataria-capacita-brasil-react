@@ -2,6 +2,7 @@
   background-color: #f7fafc;
   min-height: 100vh;
   padding: 2rem 1rem;
+  font-family: "Inter", sans-serif;
 }
 
 .checkout-container {
@@ -10,7 +11,7 @@
   gap: 2rem;
   max-width: 1200px;
   margin: 0 auto;
-  align-items: start; /* Alinha os itens no topo */
+  align-items: start;
 }
 
 .checkout-form {
@@ -18,7 +19,8 @@
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   padding: 2rem;
-  height: fit-content; /* Ajusta altura ao conteúdo */
+  height: fit-content;
+  transition: all 0.3s;
 }
 
 .checkout-form h2 {
@@ -44,7 +46,7 @@
 .form-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem; /* Aumentei o gap para evitar sobreposição */
+  gap: 1.5rem;
 }
 
 .form-grid-full {
@@ -57,23 +59,26 @@ label {
   color: #4a5568;
   margin-bottom: 0.5rem;
   font-weight: 500;
+  margin-top: 10px;
 }
 
 input[type="text"],
 input[type="email"],
-input[type="tel"] {
+input[type="tel"],
+select {
   width: 100%;
-  padding: 0.75rem 1rem; /* Aumentei o padding horizontal */
+  padding: 0.75rem 1rem;
   border: 1px solid #e2e8f0;
   border-radius: 8px;
   font-size: 0.95rem;
   transition: all 0.2s;
-  box-sizing: border-box; /* Garante que padding não aumente a largura */
+  box-sizing: border-box;
 }
 
 input[type="text"]:focus,
 input[type="email"]:focus,
-input[type="tel"]:focus {
+input[type="tel"]:focus,
+select:focus {
   outline: none;
   border-color: #4299e1;
   box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.1);
@@ -84,7 +89,6 @@ input[type="radio"] {
   vertical-align: middle;
 }
 
-/* Estilo para os radio buttons */
 .form-grid-full label {
   display: inline-flex;
   align-items: center;
@@ -92,6 +96,25 @@ input[type="radio"] {
   cursor: pointer;
 }
 
+select {
+  appearance: none; /* remove o estilo nativo */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: #f7fafc;
+  border: 1px solid #cbd5e0;
+  border-radius: 8px;
+  padding: 0.65rem 1rem;
+  font-size: 0.95rem;
+  color: #2d3748;
+  cursor: pointer;
+}
+
+select:focus {
+  border-color: #4299e1;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.1);
+}
+
+/* Resumo da compra */
 .resumo-compra-checkout {
   position: sticky;
   top: 2rem;
@@ -99,9 +122,17 @@ input[type="radio"] {
   background-color: #ffffff;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem;
+  transition: all 0.3s;
 }
 
 /* Responsividade */
+@media (max-width: 1024px) {
+  .checkout-container {
+    grid-template-columns: 1fr 300px;
+  }
+}
+
 @media (max-width: 768px) {
   .checkout-container {
     grid-template-columns: 1fr;
@@ -111,7 +142,7 @@ input[type="radio"] {
   .resumo-compra-checkout {
     position: static;
     order: -1;
-    margin-bottom: 0;
+    margin-bottom: 1rem;
     min-height: auto;
   }
 }
@@ -131,7 +162,8 @@ input[type="radio"] {
 
   input[type="text"],
   input[type="email"],
-  input[type="tel"] {
+  input[type="tel"],
+  select {
     padding: 0.65rem 1rem;
   }
 }

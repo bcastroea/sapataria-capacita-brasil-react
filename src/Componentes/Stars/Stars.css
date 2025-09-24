@@ -10,7 +10,8 @@
   margin: 0 1px;
 }
 
-.star-empty, .star-filled {
+.star-empty,
+.star-filled {
   display: inline-block;
 }
 

@@ -33,6 +33,7 @@ import { userApi } from "./utils/requestJson";
 import UserManagementPage from "./pages/User/userManagementPage";
 import ProtectedRoute from "./utils/ProtectedRoutes";
 import ComprasManagement from "./pages/User/comprasManagement";
+import EditarCliente from "./pages/Client/editarClient";
 
 function App() {
   const dispatch = useDispatch();
@@ -129,6 +130,7 @@ function App() {
             }
           />
           <Route path="/compras-management" element={<ComprasManagement />} />
+          <Route path="/editar-cliente" element={<EditarCliente />} />
         </Routes>
         <Footer />
       </div>

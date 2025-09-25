@@ -53,17 +53,6 @@ export default function ClientPage() {
     navigate("/login-cliente");
   };
 
-  const handleCancelarCompra = async (id) => {
-    try {
-      await comprasApi.cancelCompra(id, cliente.token);
-      setCompras((prev) =>
-        prev.map((c) => (c.id === id ? { ...c, status: "cancelada" } : c)),
-      );
-    } catch (err) {
-      alert("Erro ao cancelar compra");
-    }
-  };
-
   if (carregando) return <p>Carregando informações...</p>;
   if (!cliente) return <p>Cliente não encontrado.</p>;
 
@@ -95,23 +84,27 @@ export default function ClientPage() {
       </section>
 
       {/* Endereços */}
-      <section className="enderecos-section">
+      <section className="card-section">
         <h2>Meus Endereços</h2>
-        <Button
-          title="Gerenciar Endereços"
-          variant="primary"
-          onClick={() => navigate("/enderecos")}
-        />
+        <div className="card">
+          <Button
+            title="Gerenciar Endereços"
+            variant="primary"
+            onClick={() => navigate("/enderecos")}
+          />
+        </div>
       </section>
 
       {/* Compras */}
-      <section className="compras-section">
+      <section className="card-section">
         <h2>Minhas Compras</h2>
-        <Button
-          title="Ver Compras"
-          variant="primary"
-          onClick={() => navigate("/compras")}
-        />
+        <div className="card">
+          <Button
+            title="Ver Compras"
+            variant="primary"
+            onClick={() => navigate("/compras")}
+          />
+        </div>
       </section>
     </div>
   );

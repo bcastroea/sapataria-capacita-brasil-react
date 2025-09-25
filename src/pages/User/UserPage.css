@@ -338,3 +338,34 @@ button.danger {
     height: 40px;
   }
 }
+
+.preview-item {
+  position: relative;
+  display: inline-block;
+}
+
+.preview-item img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid #e5e7eb;
+}
+
+.preview-item .remover-imagem {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  background: #dc2626;
+  color: white;
+  border: none;
+  border-radius: 50%;  /* garante círculo */
+  width: 24px;
+  height: 24px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 24px;   /* centraliza o X */
+  text-align: center;
+  cursor: pointer;
+  padding: 0;
+}

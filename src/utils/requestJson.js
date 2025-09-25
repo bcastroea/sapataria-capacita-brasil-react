@@ -139,14 +139,21 @@ export const productApi = {
   },
 
   async createProduto(produto, token) {
-    const res = await fetch(`${BASE_URL}/produtos`, {
+    let options = {
       method: "POST",
       headers: {
-        "Content-Type": "application/json",
         Authorization: `Bearer ${token}`,
       },
-      body: JSON.stringify(produto),
-    });
+      body: produto,
+    };
+
+    // Se for JSON comum, seta Content-Type
+    if (!(produto instanceof FormData)) {
+      options.headers["Content-Type"] = "application/json";
+      options.body = JSON.stringify(produto);
+    }
+
+    const res = await fetch(`${BASE_URL}/produtos`, options);
 
     const data = await res.json();
     if (!res.ok) {
@@ -165,21 +172,25 @@ export const productApi = {
   },
 
   async updateProduto(id, produto, token) {
-    const res = await fetch(`${BASE_URL}/produtos/${id}`, {
+    let options = {
       method: "PUT",
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: `Bearer ${token}`,
-      },
-      body: JSON.stringify(produto),
-    });
+      headers: { Authorization: `Bearer ${token}` },
+      body: produto,
+    };
+
+    // Se não for FormData, trata como JSON normal
+    if (!(produto instanceof FormData)) {
+      options.headers["Content-Type"] = "application/json";
+      options.body = JSON.stringify(produto);
+    }
+
+    const res = await fetch(`${BASE_URL}/produtos/${id}`, options);
 
     const data = await res.json();
     if (!res.ok) {
       throw new Error(data.error || "Erro ao atualizar produto");
     }
 
-    // 🔑 Normaliza URLs das imagens
     return {
       ...data,
       imagens: data.imagens

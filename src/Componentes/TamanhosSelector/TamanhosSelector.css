@@ -1,0 +1,14 @@
+.tamanhos-container button {
+  background: #e5e7eb;
+  border: none;
+  padding: 3% 6%;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  margin-top: 2%;
+}
+
+.tamanhos-container button.selected {
+  background: #2563eb;
+  color: white;
+}

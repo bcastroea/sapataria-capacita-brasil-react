@@ -5,6 +5,7 @@ import Button from "../../Componentes/Buttons/Button";
 import "./UserPage.css";
 import { setUser, logoutUser } from "../User/userSlice";
 import { productApi, userApi } from "../../utils/requestJson";
+import TamanhosSelector from "../../Componentes/TamanhosSelector/tamanhosSelector";
 
 export default function UserPage() {
   const user = useSelector((state) => state.user);
@@ -99,7 +100,7 @@ export default function UserPage() {
     formData.append("descricao", novoProduto.descricao);
 
     novoProduto.tamanhos.forEach((t, i) =>
-      formData.append(`tamanhos[${i}][nome]`, t),
+      formData.append(`tamanhos[${i}][numero]`, t),
     );
     novoProduto.imagens.forEach((img) => formData.append("imagens", img));
 
@@ -126,19 +127,29 @@ export default function UserPage() {
     setEditando(prod.id);
     setProdutoEditado({
       ...prod,
+      preco: prod.precos?.[0]?.semDesconto || 0,
+      tamanhos: prod.tamanhos?.map((t) => t.numero) || [],
       imagens: [],
-      tamanhos: prod.tamanhos?.map((t) => t.nome) || [],
+      imagensExistentes: prod.imagens || [],
+      removeImagens: [],
     });
   };
 
   const atualizarProduto = async (produtoId) => {
     const formData = new FormData();
+
     Object.entries(produtoEditado).forEach(([key, value]) => {
       if (key === "tamanhos") {
-        value.forEach((t, i) => formData.append(`tamanhos[${i}][nome]`, t));
+        value.forEach((t, i) =>
+          formData.append(`tamanhos[${i}][nome]`, t)
+        );
       } else if (key === "imagens") {
         value.forEach((img) => formData.append("imagens", img));
-      } else {
+      } else if (key === "removeImagens") {
+        value.forEach((id) => formData.append("removeImagens", id));
+      } else if (
+        key !== "imagensExistentes" // não precisa enviar
+      ) {
         formData.append(key, value);
       }
     });
@@ -147,7 +158,7 @@ export default function UserPage() {
       const atualizado = await productApi.updateProduto(
         produtoId,
         formData,
-        user.token,
+        user.token
       );
       setProdutos(produtos.map((p) => (p.id === produtoId ? atualizado : p)));
       setEditando(null);
@@ -280,18 +291,11 @@ export default function UserPage() {
             </label>
 
             <label>
-              Tamanhos (vírgula separado):
-              <input
-                type="text"
-                value={novoProduto.tamanhos.join(",")}
-                onChange={(e) =>
-                  setNovoProduto({
-                    ...novoProduto,
-                    tamanhos: e.target.value
-                      .split(",")
-                      .map((t) => t.trim())
-                      .filter(Boolean),
-                  })
+              Tamanhos:
+              <TamanhosSelector
+                selectedTamanhos={novoProduto.tamanhos}
+                setSelectedTamanhos={(t) =>
+                  setNovoProduto({ ...novoProduto, tamanhos: t })
                 }
               />
             </label>
@@ -321,7 +325,11 @@ export default function UserPage() {
           <div className="grid-produtos">
             {produtos.map((prod) => {
               const imagemPrincipal =
-                prod.imagens?.[0]?.url || "placeholder.jpg";
+                editando === prod.id
+                  ? produtoEditado.imagensExistentes?.find(
+                      (i) => !(produtoEditado.removeImagens || []).includes(i.id)
+                    )?.url || "placeholder.jpg"
+                  : prod.imagens?.[0]?.url || "placeholder.jpg";
 
               return (
                 <div key={prod.id} className="produto-card">
@@ -415,24 +423,15 @@ export default function UserPage() {
                           }
                         />
                       </label>
-
                       <label>
-                        Tamanhos (vírgula separado):
-                        <input
-                          type="text"
-                          value={produtoEditado.tamanhos?.join(",") || ""}
-                          onChange={(e) =>
-                            setProdutoEditado({
-                              ...produtoEditado,
-                              tamanhos: e.target.value
-                                .split(",")
-                                .map((t) => t.trim())
-                                .filter(Boolean),
-                            })
+                        Tamanhos:
+                        <TamanhosSelector
+                          selectedTamanhos={produtoEditado.tamanhos}
+                          setSelectedTamanhos={(t) =>
+                            setProdutoEditado({ ...produtoEditado, tamanhos: t })
                           }
                         />
                       </label>
-
                       <label>
                         Novas Imagens:
                         <input
@@ -445,6 +444,45 @@ export default function UserPage() {
                             })
                           }
                         />
+                      </label>
+                      <label>
+                        Imagens atuais:
+                        <div className="produto-preview-imagens">
+                          {produtoEditado.imagensExistentes
+                            ?.filter((i) => !(produtoEditado.removeImagens || []).includes(i.id))
+                            .map((img) => (
+                              <div key={`preview-${img.id}`} className="preview-item">
+                                <img
+                                  src={img.url}
+                                  alt="preview"
+                                  onClick={(e) => {
+                                    e.preventDefault();
+                                    e.stopPropagation();
+                                  }}
+                                />
+                                <button
+                                  type="button"
+                                  className="remover-imagem"
+                                  onClick={(e) => {
+                                    e.preventDefault();
+                                    e.stopPropagation();
+                                    setProdutoEditado((prev) => {
+                                      const removeImagens = prev.removeImagens || [];
+                                      if (removeImagens.includes(img.id)) {
+                                        return prev; // já removido
+                                      }
+                                      return {
+                                        ...prev,
+                                        removeImagens: [...removeImagens, img.id],
+                                      };
+                                    });
+                                  }}
+                                >
+                                  x
+                                </button>
+                              </div>
+                          ))}
+                        </div>
                       </label>
 
                       <div className="produto-actions">
